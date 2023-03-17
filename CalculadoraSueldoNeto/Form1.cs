@@ -42,7 +42,6 @@ namespace CalculadoraSueldoNeto
             double AFPMensual = PagoAFPQuincenal * 2;
             
             double SueldoBrutoAnual = (SueldoBrutoMensual - SFSMensual - AFPMensual)  * 12;
-            txtSueldoBrutoAnual.Text = "= " + SueldoBrutoAnual;
 
             double PagoISRQuincenal = 0.00;
             if (SueldoBrutoAnual > 416220.00)

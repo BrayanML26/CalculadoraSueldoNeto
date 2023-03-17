@@ -41,8 +41,6 @@
             this.txtPagoISRQuincenal = new System.Windows.Forms.TextBox();
             this.txtSueldoNetoQuincenal = new System.Windows.Forms.TextBox();
             this.btnCalcular = new System.Windows.Forms.Button();
-            this.label7 = new System.Windows.Forms.Label();
-            this.txtSueldoBrutoAnual = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -176,34 +174,12 @@
             this.btnCalcular.UseVisualStyleBackColor = false;
             this.btnCalcular.Click += new System.EventHandler(this.btnCalcular_Click);
             // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(234, 319);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(165, 20);
-            this.label7.TabIndex = 13;
-            this.label7.Text = "Sueldo Bruto Anual";
-            // 
-            // txtSueldoBrutoAnual
-            // 
-            this.txtSueldoBrutoAnual.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtSueldoBrutoAnual.Enabled = false;
-            this.txtSueldoBrutoAnual.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSueldoBrutoAnual.Location = new System.Drawing.Point(238, 348);
-            this.txtSueldoBrutoAnual.Name = "txtSueldoBrutoAnual";
-            this.txtSueldoBrutoAnual.Size = new System.Drawing.Size(161, 19);
-            this.txtSueldoBrutoAnual.TabIndex = 14;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(420, 386);
-            this.Controls.Add(this.txtSueldoBrutoAnual);
-            this.Controls.Add(this.label7);
+            this.ClientSize = new System.Drawing.Size(420, 309);
             this.Controls.Add(this.btnCalcular);
             this.Controls.Add(this.txtSueldoNetoQuincenal);
             this.Controls.Add(this.txtPagoISRQuincenal);
@@ -241,8 +217,6 @@
         private System.Windows.Forms.TextBox txtPagoISRQuincenal;
         private System.Windows.Forms.TextBox txtSueldoNetoQuincenal;
         private System.Windows.Forms.Button btnCalcular;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox txtSueldoBrutoAnual;
     }
 }
 
