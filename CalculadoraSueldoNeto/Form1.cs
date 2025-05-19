@@ -58,6 +58,7 @@ namespace CalculadoraSueldoNeto
                 {
                     PagoISRQuincenal = (SueldoBrutoAnual - 867123.01) * 0.25 + 79776.00;
                 }
+
                 txtPagoISRQuincenal.Text = "= " + (PagoISRQuincenal / 24);
             }
             else
@@ -67,6 +68,7 @@ namespace CalculadoraSueldoNeto
 
             double SueldoNetoQuincenal = SueldoBrutoQuincenal - PagoSFSQuincenal - PagoAFPQuincenal - (PagoISRQuincenal / 24);
             txtSueldoNetoQuincenal.Text = "= " + SueldoNetoQuincenal;
+
         }
     }
 }
